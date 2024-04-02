@@ -13,7 +13,7 @@ typedef struct
     QElemType *base;
     int front;
     int rear;
-} SqQueue;
+} SqQueue;//定义SqQueue
 
 SqQueue Sq;
 
