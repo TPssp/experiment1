@@ -32,7 +32,7 @@ void Push(LinkStack &S,SElemType e){
 }
 
 void Pop(LinkStack &S, SElemType &e){
-    if (S->next == NULL) return; // 如果栈为空，直接返回
+    if (S->next == NULL) return; 
     SNode *p = S->next; // 创建临时节点指针，指向栈顶元素
     e = p->data; // 将栈顶元素的数据赋值给e
     S->next = p->next; // 将栈顶指针移动到下一个节点
